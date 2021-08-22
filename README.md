@@ -15,3 +15,32 @@ The users also could search for desired topics or article source. In the sources
 
 <img src="News-App/AppScreenshots/sources.png" width="200" > <img src="News-App/AppScreenshots/webView.png" width="200">
 
+
+## Built by
+* [Swift](https://developer.apple.com/swift/) language.
+* [Kingfisher](https://github.com/onevcat/Kingfisher) library.
+* [SkeletonView](https://github.com/Juanpe/SkeletonView) library.
+* [CoreData](https://developer.apple.com/documentation/coredata) library.
+* [Firebase](https://firebase.google.com/docs/ios/setup) library.
+
+
+## How to use
+
+Install pods:
+1. Open terminal and write cd PROJECT_PATH
+2. pod init 
+3. pod install
+
+For more open this [link](https://stackoverflow.com/questions/20755044/how-to-install-cocoapods) 
+
+## Important 
+
+In Constans.swift
+
+```
+struct K {
+    static let APIKey = "ENTER_YOUR_KEY" // MARK: - ENTER HERE YOUR NEWS API KEY
+    }
+```
+
+Enter your News API key inside the quotes marks! Without it the application will not work.

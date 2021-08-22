@@ -38,7 +38,7 @@ For more open this [link](https://stackoverflow.com/questions/20755044/how-to-in
 
 ## License
 
-This project is licenced under the MIT License, see more [license](https://github.com/bakhtovar/News-App/blob/news/LICENSE.md)
+This project is licensed under the MIT License, see more [license](https://github.com/bakhtovar/News-App/blob/news/LICENSE.md).
 
 ## Important 
 

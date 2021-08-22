@@ -23,7 +23,7 @@
             </uniquenessConstraint>
         </uniquenessConstraints>
     </entity>
-    <entity name="SourceDB" representedClassName="SourceDB" syncable="YES">
+    <entity name="SourceDB" representedClassName=".SourceDB" syncable="YES">
         <attribute name="category" optional="YES" attributeType="String"/>
         <attribute name="id" optional="YES" attributeType="String"/>
         <attribute name="name" optional="YES" attributeType="String"/>

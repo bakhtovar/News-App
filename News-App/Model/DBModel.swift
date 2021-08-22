@@ -62,19 +62,19 @@ class SourcesDBModel: NSManagedObject {
             print("Errorr: \(error.localizedDescription)")
            }
          }
-    func fetch() {
-       let appDelegate = UIApplication.shared.delegate as! AppDelegate
-       let context = appDelegate.persistentContainer.viewContext
-       let fetch = NSFetchRequest<NSFetchRequestResult>(entityName: "SourceDB")
-       do {
-        let result = try context.fetch(fetch)
-        for data in result as! [NSManagedObject] {
-         print(data.value(forKey: "name") as! String)
-        }
-       } catch {
-        print("Failed")
-       }
-     }
+//    func fetch() {
+//       let appDelegate = UIApplication.shared.delegate as! AppDelegate
+//       let context = appDelegate.persistentContainer.viewContext
+//       let fetch = NSFetchRequest<NSFetchRequestResult>(entityName: "SourceDB")
+//       do {
+//        let result = try context.fetch(fetch)
+//        for data in result as! [NSManagedObject] {
+//         print(data.value(forKey: "name") as! String)
+//        }
+//       } catch {
+//        print("Failed")
+//       }
+//     }
 }
 
 

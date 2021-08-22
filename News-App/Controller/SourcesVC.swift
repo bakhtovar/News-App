@@ -55,10 +55,10 @@ class SourcesVC: UIViewController {
             }
     }
 
-    
+
         func fetchData () {
-         //   let fetchRequest: NSFetchRequest<SourceDB> = SourceDB.fetchRequest()
-            let fetchRequest = NSFetchRequest<SourceDB>(entityName: "SourceDB")
+        let fetchRequest: NSFetchRequest<SourceDB> = SourceDB.fetchRequest()
+            //let fetchRequest = NSFetchRequest<SourceDB>(entityName: "SourceDB")
             do {
                 let sourceModel = try context.fetch(fetchRequest)
                 self.sourcesDB = sourceModel
@@ -161,12 +161,12 @@ extension SourcesVC :
     
     //MARK: - SENDING DATA TO THE CATEGORYVC
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let tappedCategory = sourcesDB[indexPath.row]
+        let tappedCategory = sources?.sources[indexPath.row]
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         
         let vc = storyboard.instantiateViewController(identifier: "CategoryVC") as! CategoryVC
-        vc.sourceName = tappedCategory.name
-        vc.sourceId = tappedCategory.id
+        vc.sourceName = tappedCategory?.name
+        vc.sourceId = tappedCategory?.id
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }

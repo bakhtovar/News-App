@@ -36,6 +36,10 @@ Install pods:
 
 For more open this [link](https://stackoverflow.com/questions/20755044/how-to-install-cocoapods) 
 
+## License
+
+This project is licenced under the MIT License, see more [license](https://github.com/bakhtovar/News-App/blob/news/LICENSE.md)
+
 ## Important 
 
 In Constans.swift

@@ -22,6 +22,7 @@ The users also could search for desired topics or article source. In the sources
 * [SkeletonView](https://github.com/Juanpe/SkeletonView) library.
 * [CoreData](https://developer.apple.com/documentation/coredata) library.
 * [Firebase](https://firebase.google.com/docs/ios/setup) library.
+* [IQKeyboardManagerSwift](https://github.com/hackiftekhar/IQKeyboardManager) library
 
 
 ## How to use

@@ -24,6 +24,8 @@ The users also could search for desired topics or article source. In the sources
 * [Firebase](https://firebase.google.com/docs/ios/setup) library.
 * [IQKeyboardManagerSwift](https://github.com/hackiftekhar/IQKeyboardManager) library
 
+## Author
+Bakhtovar Umarov - [LinkedIn](https://www.linkedin.com/in/bakhtovar/)
 
 ## How to use
 

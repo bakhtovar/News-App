@@ -9,7 +9,6 @@ import Foundation
 import UIKit
 
 struct K {
-    
     static let APIKey = "ENTER_YOUR_KEY" // MARK: - ENTER HERE YOUR NEWS API KEY
     static let url = "https://newsapi.org/v2/"
     var total = 4

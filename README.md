@@ -1,5 +1,5 @@
 # News-App
-An IOS application retrieves and displays headlines from [NewsAPI](https://www.google.com).
+An iOS application retrieves and displays headlines from [NewsAPI](https://www.google.com).
 
 ## Description
 
